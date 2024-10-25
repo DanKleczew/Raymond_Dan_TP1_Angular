@@ -11,7 +11,7 @@ export class WindowsComponent {
 
   @Output() selectedColor = new EventEmitter<string>();
 
-  colorChange(colorName: string) {
+  public colorChange(colorName: string) {
     this.selectedColor.emit(colorName);
   }
 

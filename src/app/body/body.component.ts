@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { WindowsComponent } from "../windows/windows.component";
+import { WindowsComponent } from "./windows/windows.component";
 import { NgClass } from '@angular/common';
 
 @Component({
